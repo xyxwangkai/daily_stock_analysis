@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+- [文档] 新增本地部署、Codex 后端验证、VS Code 断点调试、Docker 启停与常见问题说明。
 - [修复] 生成后端冒烟测试接受 API Schema 产生的整数浮点超时值，避免合法的 `60.0` 被误报为 `unsafe_config`。
 - [修复] 基本面适配按明确报告期调用 AkShare 业绩预告、快报及机构持股，修正十大股东市场代码并限制结果为目标股票；按真实指标生成快报摘要，避免旧默认日期、公告日期冒充摘要和跨指标错误降级。
 
